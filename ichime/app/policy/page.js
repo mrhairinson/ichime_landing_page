@@ -30,7 +30,7 @@ export default function Policy() {
           Generally, we do not collect any PII from you when you download our
           IOS applications. To be specific, we do not require the consumers to
           get registered before downloading the application, nor do we keep
-          track of the consumers' visits of our application, we even don't have
+          track of the consumers&#39; visits of our application, we even don&#39;t have
           a Server to store such PII. <br />
           <br />
           The app does use third party services that may collect information
@@ -164,7 +164,7 @@ export default function Policy() {
         <p className="text-justify">
           Cookies are files with a small amount of data that are commonly used
           as anonymous unique identifiers. These are sent to your browser from
-          the websites that you visit and are stored on your device's internal
+          the websites that you visit and are stored on your device&#39;s internal
           memory. This Service does not use these “cookies” explicitly. However,
           the app may use third party code and libraries that use “cookies” to
           collect information and improve their services. You have the option to
