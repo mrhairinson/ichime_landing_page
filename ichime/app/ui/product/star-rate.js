@@ -31,9 +31,9 @@ export default function Rate({ rate }) {
   }, []);
   return (
     <div className="flex gap-1">
-      {lsRate.map((item) =>
+      {lsRate.map((item, index) =>
         item === 1 ? (
-          <div>
+          <div key={index}>
             <Image
               src="/images/icons/fullStar.png"
               alt="star"
@@ -42,7 +42,7 @@ export default function Rate({ rate }) {
             />
           </div>
         ) : (
-          <div>
+          <div key={index}>
             <Image
               src="/images/icons/noStar.png"
               alt="no star"

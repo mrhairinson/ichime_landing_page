@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Policy() {
   return (
-    <main id="policy" className="">
+    <main id="policy">
       <h1 className="text-pageTitleLg font-bold leading-[120px] text-center">
         Privacy Policy
       </h1>
