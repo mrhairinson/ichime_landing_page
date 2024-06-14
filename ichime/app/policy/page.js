@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function Policy() {
   return (
     <main id="policy">
-      <h1 className="text-pageTitleLg font-bold leading-[120px] text-center">
+      <h1 className="text-[20px] md:text-pageTitleLg font-bold leading-[48px] md:leading-[120px] text-center">
         Privacy Policy
       </h1>
-      <section className="pt-[34px] px-[92px] mb-[45px] text-[16px] md:text-[30px] leading-[20px] md:leading-[35px] font-normal">
+      <section className="pt-[8px] md:pt-[34px] px-[40px] md:px-[92px] mb-[45px] text-[14px] md:text-[30px] leading-[20px] md:leading-[35px] font-normal">
         <p className="text-justify">
           Welcome to <b>ICHIME Studio!</b> <br />
           <br />
@@ -39,14 +39,15 @@ export default function Policy() {
         </p>
         <br />
         <b>For advertising:</b>
-        <ul className="font-bold pl-[124px] flex flex-col gap-4 mt-[22px]">
+        <ul className="font-bold pl-[40px] md:pl-[124px] flex flex-col gap-4 mt-[22px]">
           <li className="flex">
-            <div className="flex items-center mr-6">
+            <div className="flex items-center mr-2 md:mr-6">
               <Image
                 src={"/images/icons/listTriangle.png"}
                 alt={"list"}
                 height={19}
                 width={19}
+                className="w-[8px] md:w-[19px]"
               />
             </div>
 
@@ -59,12 +60,13 @@ export default function Policy() {
             </a>
           </li>
           <li className="flex">
-            <div className="flex items-center mr-6">
+            <div className="flex items-center mr-2 md:mr-6">
               <Image
                 src={"/images/icons/listTriangle.png"}
                 alt={"list"}
                 height={19}
                 width={19}
+                className="w-[8px] md:w-[19px]"
               />
             </div>
 
@@ -77,12 +79,13 @@ export default function Policy() {
             </a>
           </li>
           <li className="flex">
-            <div className="flex items-center mr-6">
+            <div className="flex items-center mr-2 md:mr-6">
               <Image
                 src={"/images/icons/listTriangle.png"}
                 alt={"list"}
                 height={19}
                 width={19}
+                className="w-[8px] md:w-[19px]"
               />
             </div>
 
@@ -98,14 +101,15 @@ export default function Policy() {
         <br />
 
         <b>For analyze:</b>
-        <ul className="font-bold pl-[124px] flex flex-col gap-4 mt-[22px]">
+        <ul className="font-bold pl-[40px] md:pl-[124px] flex flex-col gap-4 mt-[22px]">
           <li className="flex">
-            <div className="flex items-center mr-6">
+            <div className="flex items-center mr-2 md:mr-6">
               <Image
                 src={"/images/icons/listTriangle.png"}
                 alt={"list"}
                 height={19}
                 width={19}
+                className="w-[8px] md:w-[19px]"
               />
             </div>
 
@@ -118,12 +122,13 @@ export default function Policy() {
             </a>
           </li>
           <li className="flex">
-            <div className="flex items-center mr-6">
+            <div className="flex items-center mr-2 md:mr-6">
               <Image
                 src={"/images/icons/listTriangle.png"}
                 alt={"list"}
                 height={19}
                 width={19}
+                className="w-[8px] md:w-[19px]"
               />
             </div>
 
@@ -136,12 +141,13 @@ export default function Policy() {
             </a>
           </li>
           <li className="flex">
-            <div className="flex items-center mr-6">
+            <div className="flex items-center mr-2 md:mr-6">
               <Image
                 src={"/images/icons/listTriangle.png"}
                 alt={"list"}
                 height={19}
                 width={19}
+                className="w-[8px] md:w-[19px]"
               />
             </div>
 
@@ -171,47 +177,51 @@ export default function Policy() {
           We may employ third-party companies and individuals due to the
           following reasons:
         </p>
-        <ul className="pl-[124px] flex flex-col gap-4 mt-[22px]">
+        <ul className="pl-[40px] md:pl-[124px] flex flex-col gap-4 mt-[22px]">
           <li className="flex">
-            <div className="flex items-center mr-6">
+            <div className="flex items-center mr-2 md:mr-6">
               <Image
                 src={"/images/icons/listCircle.png"}
                 alt={"list"}
                 height={19}
                 width={19}
+                className="w-[8px] md:w-[19px]"
               />
             </div>
             To facilitate our Service;
           </li>
           <li className="flex">
-            <div className="flex items-center mr-6">
+            <div className="flex items-center mr-2 md:mr-6">
               <Image
                 src={"/images/icons/listCircle.png"}
                 alt={"list"}
                 height={19}
                 width={19}
+                className="w-[8px] md:w-[19px]"
               />
             </div>
             To provide the Service on our behalf;
           </li>
           <li className="flex">
-            <div className="flex items-center mr-6">
+            <div className="flex items-center mr-2 md:mr-6">
               <Image
                 src={"/images/icons/listCircle.png"}
                 alt={"list"}
                 height={19}
                 width={19}
+                className="w-[8px] md:w-[19px]"
               />
             </div>
             To perform Service-related services; or
           </li>
           <li className="flex">
-            <div className="flex items-center mr-6">
+            <div className="flex items-center mr-2 md:mr-6">
               <Image
                 src={"/images/icons/listCircle.png"}
                 alt={"list"}
                 height={19}
                 width={19}
+                className="w-[8px] md:w-[19px]"
               />
             </div>
             To assist us in analyzing how our Service is used.

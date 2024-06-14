@@ -30,7 +30,7 @@ export default function Rate({ rate }) {
     }
   }, []);
   return (
-    <div className="flex gap-1">
+    <div className="flex gap-[1.6px] md:gap-1">
       {lsRate.map((item, index) =>
         item === 1 ? (
           <div key={index}>
@@ -39,6 +39,7 @@ export default function Rate({ rate }) {
               alt="star"
               height={16}
               width={16}
+              className="w-[5.5px] md:min-w-[16px]"
             />
           </div>
         ) : (
@@ -48,6 +49,7 @@ export default function Rate({ rate }) {
               alt="no star"
               height={16}
               width={16}
+              className="w-[5.5px] md:min-w-[16px]"
             />
           </div>
         )
