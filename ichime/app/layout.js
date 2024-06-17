@@ -15,13 +15,21 @@ export default function RootLayout({ children }) {
       <body className={roboto.className}>
         {/* Header */}
         <Header />
-        <div >
+        <div className="mt-[60px] md:mt-[100px] lg:mt-[120px]">
           <Banner />
           {/* Banner */}
           {children}
           {/* Footer */}
           <Footer />
         </div>
+        <script
+          type="module"
+          src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+          nomodule
+          src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
       </body>
     </html>
   );

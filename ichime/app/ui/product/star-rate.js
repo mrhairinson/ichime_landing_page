@@ -39,7 +39,7 @@ export default function Rate({ rate }) {
               alt="star"
               height={16}
               width={16}
-              className="w-[5.5px] md:min-w-[16px]"
+              className="w-[7px] sm:min-w-[12px] md:min-w-[16px]"
             />
           </div>
         ) : (
@@ -49,7 +49,7 @@ export default function Rate({ rate }) {
               alt="no star"
               height={16}
               width={16}
-              className="w-[5.5px] md:min-w-[16px]"
+              className="w-[7px] sm:min-w-[12px] md:min-w-[16px]"
             />
           </div>
         )

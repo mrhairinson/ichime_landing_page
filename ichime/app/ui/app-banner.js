@@ -5,7 +5,7 @@ import { slides } from "../lib/pageData";
 
 export default function Banner() {
   return (
-    <section>
+    <section id="about">
       <Carousel autoSlide autoSlideInterval={4000}>
         {slides.map((image) => (
           <Image

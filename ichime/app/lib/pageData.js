@@ -58,7 +58,9 @@ export const productItems = [
     alt: "ColorEase: Paint By Number",
     title: "ColorEase: Paint By Number",
     downloadNumbers: "50K +",
-    rate: 4.6
+    rate: 4.6,
+    linkGooglePlay: "https://play.google.com/store/apps/details?id=com.ichime.color.ease.paint.by.number.coloring.book",
+    linkAppStore: "",
   },
   {
     id: 2,
@@ -66,7 +68,9 @@ export const productItems = [
     alt: "AR Drawing: Sketch & Paint",
     title: "AR Drawing: Sketch & Paint",
     downloadNumbers: "50K +",
-    rate: 4.6
+    rate: 4.6,
+    linkGooglePlay: "https://play.google.com/store/apps/details?id=com.triple.ar.drawing.art.design.picture",
+    linkAppStore: "",
   },
   {
     id: 3,
@@ -74,7 +78,9 @@ export const productItems = [
     alt: "Ichime Perfect Photo Editor",
     title: "Ichime Perfect Photo Editor",
     downloadNumbers: "50K +",
-    rate: 4.6
+    rate: 4.6,
+    linkGooglePlay: "https://play.google.com/store/apps/details?id=com.ichime.dev.photo.editor.collage.maker",
+    linkAppStore: "",
   },
   {
     id: 4,
@@ -82,7 +88,9 @@ export const productItems = [
     alt: "Video Editor & Maker - Ichime",
     title: "Video Editor & Maker - Ichime",
     downloadNumbers: "50K +",
-    rate: 4.6
+    rate: 4.6,
+    linkGooglePlay: "https://play.google.com/store/apps/details?id=com.ichime.dev.video.editor.maker",
+    linkAppStore: "",
   },
   {
     id: 5,
@@ -90,7 +98,9 @@ export const productItems = [
     alt: "Anime Live, 3D, 4K Wallpaper",
     title: "Anime Live, 3D, 4K Wallpaper",
     downloadNumbers: "50K +",
-    rate: 4.6
+    rate: 4.6,
+    linkGooglePlay: "https://play.google.com/store/apps/details?id=com.ichime.dev.anime.wallpaper",
+    linkAppStore: "",
   },
   {
     id: 6,
@@ -98,7 +108,9 @@ export const productItems = [
     alt: "Ichime - AI Art Generator",
     title: "Ichime - AI Art Generator",
     downloadNumbers: "50K +",
-    rate: 4.6
+    rate: 4.6,
+    linkGooglePlay: "https://play.google.com/store/apps/dev?id=6498748123207845551&pli=1",
+    linkAppStore: "",
   },
   {
     id: 7,
@@ -107,6 +119,8 @@ export const productItems = [
     title: "Sleep Sound Dreams",
     downloadNumbers: "50K +",
     rate: 4.6,
+    linkGooglePlay: "https://play.google.com/store/apps/details?id=com.triple.relaxingsleepsound",
+    linkAppStore: "",
     canHideMd: true,
   },
   {
@@ -116,6 +130,8 @@ export const productItems = [
     title: "AI Track Calorie & Nutrition",
     downloadNumbers: "50K +",
     rate: 4.6,
+    linkGooglePlay: "https://play.google.com/store/apps/details?id=com.ichime.dev.calories.tracker",
+    linkAppStore: "",
     canHideMd: true,
   },
   {
@@ -125,6 +141,8 @@ export const productItems = [
     title: "PDF Reader - PDF Viewer",
     downloadNumbers: "50K +",
     rate: 4.6,
+    linkGooglePlay: "https://play.google.com/store/apps/details?id=com.ichime.dev.pdf.viewer.preview.create",
+    linkAppStore: "",
     canHide: true
   },
   {
@@ -134,6 +152,8 @@ export const productItems = [
     title: "Document Scanner - PDF Creator",
     downloadNumbers: "50K +",
     rate: 4.6,
+    linkGooglePlay: "https://play.google.com/store/apps/details?id=com.triple.camera.scanner.finance.calculator",
+    linkAppStore: "",
     canHide: true
   },
   {
@@ -143,6 +163,8 @@ export const productItems = [
     title: "ScanXpert - QR Code & Barcode",
     downloadNumbers: "50K +",
     rate: 4.6,
+    linkGooglePlay: "https://play.google.com/store/apps/details?id=com.ichime.dev.qr.scanner.pro",
+    linkAppStore: "",
     canHide: true
   },
   {
@@ -152,6 +174,8 @@ export const productItems = [
     title: "Voice Changer - Voice Effects",
     downloadNumbers: "50K +",
     rate: 4.6,
+    linkGooglePlay: "https://play.google.com/store/apps/details?id=com.ichime.dev.voice.changer.voice.effect",
+    linkAppStore: "",
     canHide: true
   },
   {
@@ -161,6 +185,8 @@ export const productItems = [
     title: "Find My Phone - Phone Tracker",
     downloadNumbers: "50K +",
     rate: 4.6,
+    linkGooglePlay: "https://play.google.com/store/apps/details?id=com.triple.phonetracker.gpslocation.phonelocation",
+    linkAppStore: "",
     canHide: true
   },
 ];

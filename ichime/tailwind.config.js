@@ -29,8 +29,11 @@ module.exports = {
         'button': '0 4px 4px rgba(0, 0, 0, 0.25)',
       },
       screens: {
+        lg: '1360px', // Custom breakpoint
+        mlg: '1240px', // Custom breakpoint
+        ml: '1024px', // Custom breakpoint
         md: '786px', // desktop value
-        tablet: '600px', // Custom breakpoint
+        sm: '556px', // Custom breakpoint
       },
       fontSize: {
         'navLg': '35px',
