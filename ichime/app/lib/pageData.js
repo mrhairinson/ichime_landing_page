@@ -70,7 +70,7 @@ export const productItems = [
     downloadNumbers: "50K +",
     rate: 4.6,
     linkGooglePlay: "https://play.google.com/store/apps/details?id=com.triple.ar.drawing.art.design.picture",
-    linkAppStore: "",
+    linkAppStore: "https://apps.apple.com/vn/app/ardrawing-unleash-creativity/id6477916846",
   },
   {
     id: 3,
@@ -109,8 +109,8 @@ export const productItems = [
     title: "Ichime - AI Art Generator",
     downloadNumbers: "50K +",
     rate: 4.6,
-    linkGooglePlay: "https://play.google.com/store/apps/dev?id=6498748123207845551&pli=1",
-    linkAppStore: "",
+    linkGooglePlay: "",
+    linkAppStore: "https://apps.apple.com/vn/app/ichime-ai-art-generator/id6451249072",
   },
   {
     id: 7,
@@ -164,7 +164,7 @@ export const productItems = [
     downloadNumbers: "50K +",
     rate: 4.6,
     linkGooglePlay: "https://play.google.com/store/apps/details?id=com.ichime.dev.qr.scanner.pro",
-    linkAppStore: "",
+    linkAppStore: "https://apps.apple.com/vn/app/scanxpert/id6475330707",
     canHide: true
   },
   {

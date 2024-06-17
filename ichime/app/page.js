@@ -7,7 +7,6 @@ import Carousel from "./ui/components/carousel";
 import Link from "next/link";
 
 export default function Home() {
-  const [isHide, setIsHide] = useState(true);
   const [screenWidth, setScreenWidth] = useState(0);
   const ML_SCREEN_WIDTH = 1240;
 
@@ -46,15 +45,15 @@ export default function Home() {
               alt={"Google Play Store Button"}
             />
           </Link>
-          <button className="transition drop-shadow-none hover:drop-shadow-button">
+          <Link href={"https://apps.apple.com/vn/developer/tung-tran-thanh/id1697297720"} target="_blank" className="transition drop-shadow-none hover:drop-shadow-button">
             <Image
               src={"/images/button/appStoreBtn.png"}
               width={327}
               height={97}
               className="w-[98px] sm:w-[180px] ml:w-[327px]"
-              alt={"Google Play Store Button"}
+              alt={"App Store Button"}
             />
-          </button>
+          </Link>
         </div>
       </div>
 
