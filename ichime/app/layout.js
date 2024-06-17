@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./ui/app-header";
 import Banner from "./ui/app-banner";
 import Footer from "./ui/app-footer";
+import Script from "next/script";
 
 export const metadata = {
   title: "Ichime",
@@ -22,14 +23,14 @@ export default function RootLayout({ children }) {
           {/* Footer */}
           <Footer />
         </div>
-        <script
+        <Script
           type="module"
           src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-        ></script>
-        <script
+        />
+        <Script
           nomodule
           src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-        ></script>
+        />
       </body>
     </html>
   );
